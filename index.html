@@ -17,13 +17,40 @@
   <meta property="og:url" content=" https://www.facebook.com/samuel.floresvasques/photos_all" />
   <meta property="og:title" content="dota full" />
   <meta property="og:description" content="Los mejores videos gratis de dota" />
-  <meta property="og:image" content="https://www.facebook.com/photo.php?fbid=1632578796874548&set=pb.100003673290487.-2207520000.1566351170.&type=3&theater" />
+  <meta property="og:image"
+    content="https://www.facebook.com/photo.php?fbid=1275854732546958&set=a.238354769630298&type=3&theater" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="https://twitter.com/samueljuniorFl1" />
+  <meta name="twitter:creator" content="https://twitter.com/samueljuniorFl1" />
+  <meta name="twitter:domain" content="https://github.com/Junioirx/DOTAFULL" />
+  <meta name="twitter:title" content="DOTA FULL" />
+  <meta name="twitter:description" content="Portafolio personal sobre fullstack de sebastian yabiku" />
+  <meta name="twitter:image" content="https://picsum.photos/216/216" />
 
   <link rel="stylesheet" href="./styles/reset.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/main.css">
   <script src="https://kit.fontawesome.com/43f3cc2ec8.js"></script>
-  
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v4.0"></script>
+  <script>window.twttr = (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function (f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+
 </head>
 
 <body>
@@ -48,16 +75,28 @@
               <li>
                 <a href="">Ranking</a>
               </li>
-              
-            
+
+
             </ul>
-            
+
           </nav>
         </div>
+
         <div class="fb-share-button" data-href="https://junioirx.github.io/DOTAFULL/" data-layout="button_count"
-            data-size="large"><a target="_blank" 
-              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjunioirx.github.io%2FDOTAFULL%2F&amp;src=sdkpreparse"
-              class="fb-xfbml-parse-ignore" ><button><i class="fab fa-facebook-f"></i> compartir</button></a></div>
+          data-size="large"><a target="_blank"
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjunioirx.github.io%2FDOTAFULL%2F&amp;src=sdkpreparse"
+            class="fb-xfbml-parse-ignore"><button><i class="fab fa-facebook-f"></i> compartir</button></a></div>
+            <a class="twitter-share-button"
+            href="https://twitter.com/intent/tweet"
+            data-size="large"
+            data-text="custom share text"
+            data-url="https://dev.twitter.com/web/tweet-button"
+            data-hashtags="example,demo"
+            data-via="twitterdev"
+            data-related="twitterapi,twitter">
+          Tweet
+          </a>
+
         <ul class="list-share">
           <li>
             <i class="fas fa-share-alt"></i>
